@@ -106,7 +106,10 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:drawableTint="@color/white" />
+                    app:drawableTint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:singleLine="false"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -157,7 +160,10 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:drawableTint="@color/white" />
+                    app:drawableTint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:singleLine="false"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
